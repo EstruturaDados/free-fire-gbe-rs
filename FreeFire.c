@@ -1,8 +1,3 @@
-// ===========================================
-//  SISTEMA MESTRE – TORRE DE RESGATE
-//  Ordenação e Busca Binária com Análise
-// ===========================================
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +16,7 @@ typedef struct {
 // Funções utilitárias
 
 // Remove quebra de linha capturada pelo fgets
-tvoid limparEnter(char *str) {
+void limparEnter(char *str) {
     str[strcspn(str, "\n")] = '\0';
 }
 
