@@ -89,7 +89,6 @@ int selectionSortPrioridade(Componente lista[], int n) {
 }
 
 // BUSCA BINÁRIA
-
 int buscaBinariaPorNome(Componente lista[], int n, char alvo[]) {
     int inicio = 0, fim = n - 1, meio;
     int comparacoes = 0;
